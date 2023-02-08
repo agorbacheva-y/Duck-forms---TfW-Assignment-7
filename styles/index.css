@@ -84,3 +84,28 @@
     width: 100%;
     background-color: #FFB039;
 }
+
+/* button */
+.form__submit {
+    display: flex;
+    justify-content: center;
+}
+
+.btn--submit {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    background-color: #468189;
+    border-radius: 25px;
+    width: 202px;
+    height: 48px;
+    box-shadow: 0 0 8px black;
+}
