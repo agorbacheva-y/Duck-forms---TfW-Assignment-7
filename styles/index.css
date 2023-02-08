@@ -78,6 +78,11 @@
     padding-left: 10px;
 }
 
+textarea {
+    resize: none;
+    overflow: hidden;
+}
+
 /* orange section next to form */
 .aside {
     max-width: 345px;
