@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: #9DBEBB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 954px;
+    min-height: 594px;
+    width: 100%;
+    box-shadow: 0 0 10px gray;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form {
+    width: 64%;
+    background-color: #BE0909;
+}
+
+.aside {
+    width: 36%;
+    background-color: #FFB039;
+}
