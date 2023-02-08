@@ -28,11 +28,32 @@
     max-width: 954px;
     width: 100%;
     background-color: #BE0909;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FEFFFF;
 }
 
+.form__name {
+    max-width: 400px;
+    width: 100%;
+    min-height: 72px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    display: block;
+    background-color: #BE0909;
+}
+
+/* orange section next to form */
 .aside {
     max-width: 345px;
     width: 100%;
