@@ -28,6 +28,7 @@
     max-width: 954px;
     width: 100%;
     background-color: #BE0909;
+    padding: 65px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -40,8 +41,16 @@
     color: #FEFFFF;
 }
 
-.form__name {
+.form__name,
+.form__message {
     max-width: 400px;
+    width: 100%;
+    min-height: 72px;
+}
+
+.form__dropdown,
+.form__email {
+    max-width: 220px;
     width: 100%;
     min-height: 72px;
 }
@@ -51,6 +60,12 @@
 .form textarea {
     display: block;
     background-color: #BE0909;
+    border-bottom: 1px solid #9DBEBB;
+    color: #FDFFFF;
+}
+
+.input {
+    margin: 30px 0;
 }
 
 /* orange section next to form */
