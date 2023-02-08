@@ -24,6 +24,7 @@
     align-content: center;
 }
 
+/* container for form */ 
 .form {
     max-width: 954px;
     width: 100%;
@@ -41,6 +42,7 @@
     color: #FEFFFF;
 }
 
+/* container for individual form fields */ 
 .form__name,
 .form__message {
     max-width: 400px;
@@ -55,17 +57,25 @@
     min-height: 72px;
 }
 
-.form input,
-.form select,
-.form textarea {
+/* input section in form fields */
+.input {
     display: block;
     background-color: #BE0909;
     border-bottom: 1px solid #9DBEBB;
     color: #FDFFFF;
+    margin: 30px 0;
 }
 
-.input {
-    margin: 30px 0;
+::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+    padding-left: 10px;
 }
 
 /* orange section next to form */
