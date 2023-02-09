@@ -61,11 +61,11 @@
 
 .form__name,
 .form__email,
-.form__phone {
+.form__phone,
+.form__member {
     margin-bottom: 50px;
 }
 
 .radio {
     font-family: sans-serif;
-    color: #cd241f;
 }
