@@ -76,10 +76,8 @@
                 <!-- attendees section -->
                 <div class="form__attendees">
                     <legend class="legend">Please select the number of attendees according to the desired lunch option.</legend>
+                    
                     <div class="dropdown__attendees">
-                        <div class="label__dropdown">
-                            <label for="adult-nonveg" class="dropdown label__attendees">Adult with bento, non-vegetarian</label>
-                        </div>
                         <div class="option__dropdown">
                             <select name="adult-nonveg" id="adult-nonveg" class="text input__attendees">
                                 <option value="0" selected>0</option>
@@ -90,12 +88,12 @@
                                 <option value="5">5</option>
                             </select>
                         </div>
+                        <div class="label__dropdown">
+                            <label for="adult-nonveg" class="dropdown label__attendees">Adult with bento, non-vegetarian</label>
+                        </div>
                     </div>
 
                     <div class="dropdown__attendees">
-                        <div class="label__dropdown">
-                            <label for="adult-veg" class="dropdown label__attendees">Adult with bento, vegetarian</label>
-                        </div>
                         <div class="option__dropdown">
                             <select name="adult-veg" id="adult-veg" class="text input__attendees">
                                 <option value="0" selected>0</option>
@@ -106,12 +104,12 @@
                                 <option value="5">5</option>
                             </select>
                         </div>
+                        <div class="label__dropdown">
+                            <label for="adult-veg" class="dropdown label__attendees">Adult with bento, vegetarian</label>
+                        </div>
                     </div>
                    
                     <div class="dropdown__attendees">
-                        <div class="label__dropdown">
-                            <label for="adult-none" class="dropdown label__attendees">Adult without bento</label>
-                        </div>
                         <div class="option__dropdown">
                             <select name="adult-none" id="adult-none" class="text input__attendees">
                                 <option value="0" selected>0</option>
@@ -122,12 +120,12 @@
                                 <option value="5">5</option>
                             </select>
                         </div>
+                        <div class="label__dropdown">
+                            <label for="adult-none" class="dropdown label__attendees">Adult without bento</label>
+                        </div>
                     </div>
 
                     <div class="dropdown__attendees">
-                        <div class="label__dropdown">
-                            <label for="child-nonveg" class="dropdown label__attendees">Child with bento, non-vegetarian</label>
-                        </div>
                         <div class="option__dropdown">
                             <select name="child-nonveg" id="child-nonveg" class="text input__attendees">
                                 <option value="0" selected>0</option>
@@ -138,12 +136,12 @@
                                 <option value="5">5</option>
                             </select>
                         </div>
+                        <div class="label__dropdown">
+                            <label for="child-nonveg" class="dropdown label__attendees">Child with bento, non-vegetarian</label>
+                        </div>
                     </div>
 
                     <div class="dropdown__attendees">
-                        <div class="label__dropdown">
-                            <label for="child-veg" class="dropdown label__attendees">Child with bento, vegetarian</label>
-                        </div>
                         <div class="option__dropdown">
                             <select name="child-veg" id="child-veg" class="text input__attendees">
                                 <option value="0" selected>0</option>
@@ -154,12 +152,12 @@
                                 <option value="5">5</option>
                             </select>
                         </div>
+                        <div class="label__dropdown">
+                            <label for="child-veg" class="dropdown label__attendees">Child with bento, vegetarian</label>
+                        </div>
                     </div>
 
                     <div class="dropdown__attendees">
-                        <div class="label__dropdown">
-                            <label for="child-none" class="dropdown label__attendees">Child without bento</label>
-                        </div>
                         <div class="option__dropdown">
                             <select name="child-none" id="child-none" class="text input__attendees">
                                 <option value="0" selected>0</option>
@@ -170,15 +168,18 @@
                                 <option value="5">5</option>
                             </select>
                         </div>
+                        <div class="label__dropdown">
+                            <label for="child-none" class="dropdown label__attendees">Child without bento</label>
+                        </div>
                     </div>
 
                 </div>
 
                 <div class="form__marketing"></div>
-                    <legend>How did you hear about us?</legend>
+                    <legend class="legend">How did you hear about us?</legend>
                     <div class="checkbox">
                         <input type="checkbox" id="web" name="web" value="web">
-                        <label for="web">Search engine</label>
+                        <label for="web" class="checkbox input__marketing">Search engine</label>
                     </div>
 
                 <div class="form__register"></div>

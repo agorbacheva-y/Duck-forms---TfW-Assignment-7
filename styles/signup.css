@@ -75,7 +75,8 @@
 }
 
 .radio-btn,
-.label__dropdown {
+.label__dropdown,
+.checkbox {
     font-family: sans-serif;
 }
 
