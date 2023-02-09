@@ -82,4 +82,7 @@
 .dropdown__attendees {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    max-width: 350px;
+    width: 100%;
 }
