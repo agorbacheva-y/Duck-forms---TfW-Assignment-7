@@ -13,6 +13,7 @@
     justify-content: center;
 }
 
+/* main container for form and image */ 
 .container {
     max-width: 954px;
     min-height: 594px;
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    position: relative;
 }
 
 /* container for form */ 
@@ -113,4 +115,11 @@ textarea {
     width: 202px;
     height: 48px;
     box-shadow: 0 0 8px black;
+}
+
+/* image */
+.image {
+    position: absolute;
+    top: 52px;
+    left: 342px;
 }
