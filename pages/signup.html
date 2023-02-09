@@ -55,13 +55,13 @@
                 <!-- member section -->
                 <div class="form__member">
                     <p>Are you a member?</p>
-                    <div class="radio">
+                    <div class="radio-btn">
                         <label for="member" class="radio__member">
-                        <input type="radio" name="member-nonmember" id="member" class="input__member">Member
+                        <input type="radio" name="member-nonmember" id="member" class="radio input__member">Member
                         </label>
                     
                         <label for="nonmember" class="radio__member">
-                        <input type="radio" name="member-nonmember" id="nonmember" class="input__member">Non-Member
+                        <input type="radio" name="member-nonmember" id="nonmember" class="radio input__member">Non-Member
                         </label>  
                     </div>
                 </div>
@@ -78,7 +78,16 @@
                 <!-- attendees section -->
                 <div class="form__attendees">
                     <div class="label">
-                        <label for="attendees"></label>
+                        <label for="attendees" class="label__attendees">Please select the number of attendees according to the desired lunch option.</label>
+                    </div>
+                    <div class="dropdown">
+                        <select name="attendees" id="attendees" class="text input__attendees">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
                     </div>
                 </div>
 

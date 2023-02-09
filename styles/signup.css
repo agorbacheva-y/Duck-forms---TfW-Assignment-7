@@ -51,6 +51,7 @@
 ::placeholder {
     font-family: sans-serif;
     color: #eaadad;
+    padding-left: 5px;
 }
 
 .text,
@@ -68,5 +69,9 @@
 }
 
 .radio {
+    margin: 0 10px;
+}
+
+.radio-btn {
     font-family: sans-serif;
 }
