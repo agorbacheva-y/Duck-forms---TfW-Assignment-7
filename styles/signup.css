@@ -65,13 +65,9 @@
 .form__phone,
 .form__member,
 .form__member-nr,
-.form__attendees {
+.form__attendees,
+.form__marketing {
     margin-bottom: 30px;
-}
-
-.radio,
-.dropdown {
-    margin: 0 10px;
 }
 
 .radio-btn,
@@ -83,8 +79,5 @@
 .dropdown__attendees {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    max-width: 350px;
-    width: 100%;
     margin-bottom: 5px;
 }
