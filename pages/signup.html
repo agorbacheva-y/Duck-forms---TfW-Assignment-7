@@ -77,18 +77,22 @@
 
                 <!-- attendees section -->
                 <div class="form__attendees">
-                    <div class="label">
-                        <label for="attendees" class="label__attendees">Please select the number of attendees according to the desired lunch option.</label>
+                    <p>Please select the number of attendees according to the desired lunch option.</p>
+                    <div class="dropdown__attendees">
+                        <div class="dropdown-label">
+                            <label for="attendees" class="dropdown label__attendees">Adult with bento, non-vegetarian</label>
+                        </div>
+                        <div class="dropdown-option">
+                            <select name="attendees" id="attendees" class="text input__attendees">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="dropdown">
-                        <select name="attendees" id="attendees" class="text input__attendees">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
-                    </div>
+                   
                 </div>
 
                 <div class="form__total"></div>

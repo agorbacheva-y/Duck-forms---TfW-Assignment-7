@@ -64,14 +64,22 @@
 .form__email,
 .form__phone,
 .form__member,
-.form__member-nr {
+.form__member-nr,
+.form__attendees {
     margin-bottom: 50px;
 }
 
-.radio {
+.radio,
+.dropdown {
     margin: 0 10px;
 }
 
-.radio-btn {
+.radio-btn,
+.dropdown-label {
     font-family: sans-serif;
+}
+
+.dropdown__attendees {
+    display: flex;
+    flex-direction: row;
 }
