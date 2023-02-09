@@ -17,7 +17,7 @@
  /* banner on top */
 .banner {
     width: 100%;
-    min-height: 300px;
+    min-height: 200px;
     background-color: #cd241f;
     color: white;
     font-family: 'Yusei Magic', sans-serif;
@@ -66,7 +66,7 @@
 .form__member,
 .form__member-nr,
 .form__attendees {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .radio,
@@ -85,4 +85,5 @@
     justify-content: space-between;
     max-width: 350px;
     width: 100%;
+    margin-bottom: 5px;
 }
