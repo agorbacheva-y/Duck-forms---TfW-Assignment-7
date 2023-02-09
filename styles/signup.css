@@ -41,7 +41,7 @@
 
 /* form styles thruout */
 .label,
-.form p {
+.legend {
     font-family: 'Yusei Magic', sans-serif;
     color: #cd241f;
     line-height: 2;
@@ -75,7 +75,7 @@
 }
 
 .radio-btn,
-.dropdown-label {
+.label__dropdown {
     font-family: sans-serif;
 }
 

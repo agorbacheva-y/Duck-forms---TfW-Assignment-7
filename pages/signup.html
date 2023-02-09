@@ -54,22 +54,20 @@
 
                 <!-- member section -->
                 <div class="form__member">
-                    <p>Are you a member?</p>
+                    <legend class="legend">Are you a member?</legend>
                     <div class="radio-btn">
-                        <label for="member" class="radio__member">
+                        <label for="member" class="label__member">
                         <input type="radio" name="member-nonmember" id="member" class="radio input__member">Member
                         </label>
                     
-                        <label for="nonmember" class="radio__member">
+                        <label for="nonmember" class="label__member">
                         <input type="radio" name="member-nonmember" id="nonmember" class="radio input__member">Non-Member
                         </label>  
                     </div>
                 </div>
 
                 <div class="form__member-nr">
-                    <div class="label">
-                        <label for="member-nr" class="label__member-nr">If yes, please fill in your membership number.</label>
-                    </div>
+                    <legend class="legend">If yes, please fill in your membership number.</legend>
                     <div class="input">
                         <input type="text" id="member-nr" name="member-nr" placeholder="Membership number" class="text input__member-nr" size="92">
                     </div>
@@ -77,13 +75,13 @@
 
                 <!-- attendees section -->
                 <div class="form__attendees">
-                    <p>Please select the number of attendees according to the desired lunch option.</p>
+                    <legend class="legend">Please select the number of attendees according to the desired lunch option.</legend>
                     <div class="dropdown__attendees">
-                        <div class="dropdown-label">
-                            <label for="attendees" class="dropdown label__attendees">Adult with bento, non-vegetarian</label>
+                        <div class="label__dropdown">
+                            <label for="adult-nonveg" class="dropdown label__attendees">Adult with bento, non-vegetarian</label>
                         </div>
-                        <div class="dropdown-option">
-                            <select name="attendees" id="attendees" class="text input__attendees">
+                        <div class="option__dropdown">
+                            <select name="adult-nonveg" id="adult-nonveg" class="text input__attendees">
                                 <option value="0" selected>0</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -95,11 +93,11 @@
                     </div>
 
                     <div class="dropdown__attendees">
-                        <div class="dropdown-label">
-                            <label for="attendees" class="dropdown label__attendees">Adult with bento, vegetarian</label>
+                        <div class="label__dropdown">
+                            <label for="adult-veg" class="dropdown label__attendees">Adult with bento, vegetarian</label>
                         </div>
-                        <div class="dropdown-option">
-                            <select name="attendees" id="attendees" class="text input__attendees">
+                        <div class="option__dropdown">
+                            <select name="adult-veg" id="adult-veg" class="text input__attendees">
                                 <option value="0" selected>0</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -111,10 +109,10 @@
                     </div>
                    
                     <div class="dropdown__attendees">
-                        <div class="dropdown-label">
+                        <div class="label__dropdown">
                             <label for="attendees" class="dropdown label__attendees">Adult without bento</label>
                         </div>
-                        <div class="dropdown-option">
+                        <div class="option__dropdown">
                             <select name="attendees" id="attendees" class="text input__attendees">
                                 <option value="0" selected>0</option>
                                 <option value="1">1</option>
@@ -127,10 +125,10 @@
                     </div>
 
                     <div class="dropdown__attendees">
-                        <div class="dropdown-label">
+                        <div class="label__dropdown">
                             <label for="attendees" class="dropdown label__attendees">Child with bento, non-vegetarian</label>
                         </div>
-                        <div class="dropdown-option">
+                        <div class="option__dropdown">
                             <select name="attendees" id="attendees" class="text input__attendees">
                                 <option value="0" selected>0</option>
                                 <option value="1">1</option>
@@ -143,10 +141,10 @@
                     </div>
 
                     <div class="dropdown__attendees">
-                        <div class="dropdown-label">
+                        <div class="label__dropdown">
                             <label for="attendees" class="dropdown label__attendees">Child with bento, vegetarian</label>
                         </div>
-                        <div class="dropdown-option">
+                        <div class="option__dropdown">
                             <select name="attendees" id="attendees" class="text input__attendees">
                                 <option value="0" selected>0</option>
                                 <option value="1">1</option>
@@ -159,10 +157,10 @@
                     </div>
 
                     <div class="dropdown__attendees">
-                        <div class="dropdown-label">
+                        <div class="label__dropdown">
                             <label for="attendees" class="dropdown label__attendees">Child without bento</label>
                         </div>
-                        <div class="dropdown-option">
+                        <div class="option__dropdown">
                             <select name="attendees" id="attendees" class="text input__attendees">
                                 <option value="0" selected>0</option>
                                 <option value="1">1</option>
@@ -176,11 +174,12 @@
 
                 </div>
 
-                <div class="form__total"></div>
-
-                <div class="form__payment"></div>
-
                 <div class="form__marketing"></div>
+                    <legend>How did you hear about us?</legend>
+                    <div class="checkbox">
+                        <input type="checkbox" id="web" name="web" value="web">
+                        <label for="web">Search engine</label>
+                    </div>
 
                 <div class="form__register"></div>
 
