@@ -81,3 +81,11 @@
     flex-direction: row;
     margin-bottom: 5px;
 }
+
+.checkbox {
+    margin-bottom: 5px;
+}
+
+.input__marketing {
+    margin-left: 15px;
+}
