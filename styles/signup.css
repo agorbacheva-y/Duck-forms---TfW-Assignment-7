@@ -32,11 +32,19 @@
     font-size: 40px;
 }
 
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
 /* form styles thruout */
 .label  {
     font-family: 'Yusei Magic', sans-serif;
     color: #cd241f;
     line-height: 2;
+    font-size: large;
 }
 
 ::placeholder {
@@ -45,14 +53,8 @@
 }
 
 .input {
-    line-height: 3;
+    line-height: 2;
+    margin-right: 15px;
 }
 
 /* name section */
-.form__name {
-    flex-direction: column;
-}
-
-.input--name {
-    column-gap: 50px;
-}
