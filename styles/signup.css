@@ -53,7 +53,7 @@
     color: #eaadad;
 }
 
-.input,
+.text,
 .radio {
     line-height: 2;
     margin-right: 15px;
@@ -62,7 +62,8 @@
 .form__name,
 .form__email,
 .form__phone,
-.form__member {
+.form__member,
+.form__member-nr {
     margin-bottom: 50px;
 }
 
