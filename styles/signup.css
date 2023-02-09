@@ -11,8 +11,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    background-color: #fae3e3;
 }
 
+ /* banner on top */
 .banner {
     width: 100%;
     min-height: 300px;
@@ -28,4 +30,29 @@
 
 .banner h1 {
     font-size: 40px;
+}
+
+/* form styles thruout */
+.label  {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #cd241f;
+    line-height: 2;
+}
+
+::placeholder {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #eaadad;
+}
+
+.input {
+    line-height: 3;
+}
+
+/* name section */
+.form__name {
+    flex-direction: column;
+}
+
+.input--name {
+    column-gap: 50px;
 }
