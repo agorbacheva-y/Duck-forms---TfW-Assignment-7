@@ -98,10 +98,15 @@ select {
 .label__marketing {
     display: flex;
     position: relative;
+    align-items: center;
 }
 
 .checkbox--title {
     margin-left: 15px;
+}
+
+.input__specify {
+    margin-left: 10px;
 }
 
 /* register button */
