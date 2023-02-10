@@ -109,6 +109,15 @@ select {
     cursor: pointer;
 }
 
+.button:hover {
+    background-color: #fbd243;
+    color: black;
+}
+
+.button:active {
+    transform: scale(1.15);
+}
+
 /* styling for interactive states */
 input[type=text]:focus,
 input[type=email]:focus,
