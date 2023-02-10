@@ -96,6 +96,11 @@ select {
 }
 
 .label__marketing {
+    display: flex;
+    position: relative;
+}
+
+.checkbox--title {
     margin-left: 30px;
 }
 
