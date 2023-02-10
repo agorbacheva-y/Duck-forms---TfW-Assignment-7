@@ -102,11 +102,11 @@ select {
 }
 
 .checkbox--title {
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .input__specify {
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 /* register button */
@@ -137,10 +137,19 @@ select {
     background-color: #fdf7f7;
 }
 
-/* checkbox interactive state
-input[type=checkbox] {
+
+/* custom checkbox */ 
+.label__marketing input {
     position: absolute;
     opacity: 0;
+    cursor: pointer;
+}
+
+.label__marketing input:checked ~.checkbox--custom {
+    background-color: white;
+    border: 1px solid black;
+    content: "\2713";
+    opacity: 1;
 }
 
 .checkbox--custom {
@@ -149,17 +158,10 @@ input[type=checkbox] {
     width: 18px;
     background-color: white;
     border: 1px solid black;
+    transition: all 0.3s ease-out;
 }
 
 .checkbox--custom:hover {
     background-color: #fbd243;
     cursor: pointer;
 }
-
-.checkbox--custom:checked {
-    background-color: white;
-    cursor: pointer;
-    content: icon;
-} 
-
-working on custom checkboxes... */
