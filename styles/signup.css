@@ -95,21 +95,8 @@ select {
     margin-bottom: 5px;
 }
 
-input[type=checkbox] {
-    position: absolute;
-    opacity: 0;
-}
-
 .label__marketing {
     margin-left: 30px;
-}
-
-.checkbox--custom {
-    position: absolute;
-    height: 18px;
-    width: 18px;
-    background-color: white;
-    border: 1px solid black;
 }
 
 /* register button */
@@ -129,26 +116,33 @@ input[type=tel]:focus {
     border: 2px solid #df573e;
 }
 
-.checkbox:hover input ~ .checkbox--custom {
+/* checkbox interactive state
+input[type=checkbox] {
+    position: absolute;
+    opacity: 1;
+}
+
+.checkbox--custom {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.checkbox--custom:hover {
+    background-color: #fbd243;
+    cursor: pointer;
+}
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    position: absolute;
+    opacity: 0,01;
     background-color: #fbd243;
 }
 
-.checkbox:checked input ~ .checkbox--custom {
-    background-color: white;
-}
-
-.checkbox:checked input ~ .checkbox--custom::after {
-    display: block;
-}
-
-.checkbox--custom::after {
-    left: 8px;
-    bottom: 5px;
-    width: 6px;
-    height: 12px;
-    border: solid white;
-    border-width: 0 4px 4px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
+[type="checkbox"]:not(:checked) + input:before,
+[type="checkbox"]:checked + input:before {
+    content: 'x';
+} */
