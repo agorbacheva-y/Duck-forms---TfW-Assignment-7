@@ -116,10 +116,16 @@ input[type=tel]:focus {
     border: 2px solid #df573e;
 }
 
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=tel]:hover {
+    background-color: #fdf7f7;
+}
+
 /* checkbox interactive state
 input[type=checkbox] {
     position: absolute;
-    opacity: 1;
+    opacity: 0;
 }
 
 .checkbox--custom {
@@ -135,14 +141,8 @@ input[type=checkbox] {
     cursor: pointer;
 }
 
-[type="checkbox"]:not(:checked),
-[type="checkbox"]:checked {
-    position: absolute;
-    opacity: 0,01;
-    background-color: #fbd243;
-}
-
-[type="checkbox"]:not(:checked) + input:before,
-[type="checkbox"]:checked + input:before {
-    content: 'x';
+.checkbox--custom:checked {
+    background-color: white;
+    cursor: pointer;
+    content: icon;
 } */
