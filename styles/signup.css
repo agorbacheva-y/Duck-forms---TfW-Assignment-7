@@ -95,10 +95,9 @@ select {
     margin-bottom: 5px;
 }
 
-.checkbox input {
+input[type=checkbox] {
     position: absolute;
     opacity: 0;
-    cursor: pointer;
 }
 
 .label__marketing {
@@ -130,3 +129,26 @@ input[type=tel]:focus {
     border: 2px solid #df573e;
 }
 
+.checkbox:hover input ~ .checkbox--custom {
+    background-color: #fbd243;
+}
+
+.checkbox:checked input ~ .checkbox--custom {
+    background-color: white;
+}
+
+.checkbox:checked input ~ .checkbox--custom::after {
+    display: block;
+}
+
+.checkbox--custom::after {
+    left: 8px;
+    bottom: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
