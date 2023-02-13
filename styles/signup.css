@@ -130,11 +130,12 @@ select {
 
 /* styling for interactive states */
 .text:focus {
-    border: 2px solid #df573e;
+    border: 2px solid #cd241f;
 }
 
 .text:hover {
     background-color: #fdf7f7;
+    border: 1px solid #df573e;
 }
 
 
