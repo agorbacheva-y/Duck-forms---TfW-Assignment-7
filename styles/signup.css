@@ -141,6 +141,15 @@ select {
 
 /* custom checkbox */ 
 
+/* checkbox and label container */
+.label__marketing {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    height: 18px;
+    width: 200px;
+}
+
 /* hide default checkbox */
 .label__marketing input {
     position: absolute;
@@ -148,34 +157,29 @@ select {
     cursor: pointer;
 }
 
-/* custom checkbox */
-.checkbox--custom {
+/* hover style */
+.label__marketing input:hover ~ .checkbox--custom::after {
+    background-color: #eaadad;
+}
+
+/* checkmark before clicking */
+.label__marketing .checkbox--custom::after {
     position: absolute;
+    opacity: 1;
+    content: "";
+    background-color: white;
     height: 18px;
     width: 18px;
-    background-color: white;
-    border: 1px solid black;
-    transition: all 0.3s ease-out;
 }
 
-/* hover style */
-.label__marketing input:hover ~ .checkbox--custom {
-    background-color: #eaadad;
-    cursor: pointer;
-}
-
-/* checked style */
-.label__marketing input:checked ~.checkbox--custom {
-    background-color: #fbd243;
-}
-
-/* checkbox hidden when not checked */
-.checkbox--custom::after 
-.fa-check::after {
-    content: "";
+/* checkmark after clicking */
+.label__marketing input:checked ~ .checkbox--custom::after {
     position: absolute;
-    opacity: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f069";
+    background-color: #fbd243;
+    height: 18px;
+    width: 18px;
+    text-align: center;
 }
-
-/* could not figure out how to make the custom checkbox not appear
-when not checked */
