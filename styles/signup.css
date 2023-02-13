@@ -159,7 +159,7 @@ select {
 }
 
 /* hover style */
-.label__marketing:hover input ~ .checkbox--custom {
+.label__marketing input:hover ~ .checkbox--custom {
     background-color: #eaadad;
     cursor: pointer;
 }
@@ -170,7 +170,8 @@ select {
 }
 
 /* checkbox hidden when not checked */
-.checkbox--custom::after {
+.checkbox--custom::after 
+.fa-check::after {
     content: "";
     position: absolute;
     opacity: 0;
