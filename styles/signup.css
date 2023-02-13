@@ -109,6 +109,10 @@ select {
     margin-left: 15px;
 }
 
+.checkbox textarea {
+    transform: translateX(15px);
+}
+
 /* register button */
 .button {
     background-color: #cd241f;
